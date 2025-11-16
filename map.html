@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mind Maps | MindMapr</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .map-intro {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .map-intro img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(18,18,18,0.08);
+      margin-bottom: 1rem;
+    }
+    .map-section h2 {
+      margin-top: 0;
+      color: #3760d8;
+    }
+    .map-grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .map-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 6px 20px rgba(18,18,18,0.06);
+      text-align: center;
+    }
+    .map-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 0.75rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <img style="height: 50px; width: 50px;" src="hey.png" alt="MindMapr">
+  <div class="brand">MindMapr</div>
+  <div class="search">
+    <input type="search" placeholder="Search..." />
+  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="map.html">Mind Maps</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  
+  <section class="map-intro">
+    <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e"
+         alt="Mind map visual concept">
+    <h1>Explore Visual Mind Maps</h1>
+    <p>Discover concept connections, explore topics, and learn visually with interactive mind maps.</p>
+  </section>
+
+  
+  <section class="map-section">
+    <h2>Popular Maps</h2>
+    <div class="map-grid">
+
+      <div class="map-card">
+        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b"
+             alt="Solar system mind map">
+        <h3>The Solar System</h3>
+        <p>Planets, orbits, moons & cosmic relationships.</p>
+      </div>
+
+      <div class="map-card">
+        <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d"
+             alt="World War II mind map">
+        <h3>World War II</h3>
+        <p>Events, countries involved, outcomes, timelines.</p>
+      </div>
+
+      <div class="map-card">
+        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984"
+             alt="Biology concept map">
+        <h3>Biology Basics</h3>
+        <p>Cells, DNA, evolution, classification.</p>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section class="map-section" style="margin-top: 3rem;">
+    <h2>AI Suggested Maps</h2>
+    <div class="map-grid">
+
+      <div class="map-card">
+        <img src="https://images.unsplash.com/photo-1534723328310-e82dad3ee43f"
+             alt="AI learning connections">
+        <h3>AI & Machine Learning</h3>
+        <p>Neural networks, data, algorithms, models.</p>
+      </div>
+
+      <div class="map-card">
+        <img src="https://images.unsplash.com/photo-1559027615-ce3b017f5f81"
+             alt="Programming concepts mind map">
+        <h3>Programming Fundamentals</h3>
+        <p>Variables, loops, data structures, logic.</p>
+      </div>
+
+      <div class="map-card">
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0"
+             alt="Business and management mind map">
+        <h3>Business Management</h3>
+        <p>Strategy, planning, finance, leadership.</p>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <small>© 2025 MindMapr — Visual Learning Through Connections</small>
+</footer>
+
+</body>
+</html>

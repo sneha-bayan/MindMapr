@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | MindMapr</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .contact-hero img{
+      width:100%;
+      max-height:300px;
+      object-fit:cover;
+      border-radius:12px;
+      margin-bottom:1rem;
+      box-shadow:0 6px 20px rgba(18,18,18,0.09);
+    }
+    .contact-hero{
+      text-align:center;
+      max-width:900px;
+      margin:2rem auto;
+    }
+
+    .contact-section{
+      background:var(--card-bg);
+      padding:1.7rem;
+      border-radius:12px;
+      max-width:900px;
+      margin:2rem auto;
+      box-shadow:0 6px 20px rgba(18,18,18,0.06);
+    }
+    .contact-section h2{
+      margin-top:0;
+      color:#3760d8;
+    }
+
+    .contact-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:1rem;
+      margin-top:1.4rem;
+    }
+    .contact-grid img{
+      width:100%;
+      height:180px;
+      object-fit:cover;
+      border-radius:10px;
+      box-shadow:0 6px 20px rgba(18,18,18,0.06);
+    }
+
+    form{
+      display:grid;
+      gap:1rem;
+      margin-top:1.5rem;
+    }
+    input,textarea{
+      width:100%;
+      padding:0.65rem 0.75rem;
+      border-radius:8px;
+      border:1px solid #ccc;
+      outline:none;
+    }
+    button{
+      padding:0.75rem;
+      background:#3760d8;
+      border:none;
+      color:white;
+      font-weight:600;
+      border-radius:8px;
+      cursor:pointer;
+    }
+    button:hover{
+      opacity:0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="site-header">
+    <img style="height: 50px; width: 50px;" src="hey.png" alt="MindMapr">
+  <div class="brand">MindMapr</div>
+  <div class="search">
+    <input type="search" placeholder="Search...">
+  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="map.html">Mind Maps</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  
+  <section class="contact-hero">
+    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216"
+         alt="Customer support team working together">
+
+    <h1>Contact Us</h1>
+    <p>We’re here to help you learn, explore, and grow — reach out anytime.</p>
+  </section>
+
+  
+  <section class="contact-section">
+    <h2>Get in Touch</h2>
+    <p>Have questions, feedback, or suggestions? The MindMapr team would love to hear from you.</p>
+
+    <div class="contact-grid">
+
+      <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c"
+           alt="Email communication concept">
+
+      <img src="https://images.unsplash.com/photo-1581091012184-5c2f99bb5b77"
+           alt="Team collaboration on digital tools">
+
+      <img src="https://images.unsplash.com/photo-1555421689-43cad7100755"
+           alt="Support and assistance concept">
+
+    </div>
+
+    
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <small>© 2025 MindMapr — Visual Learning Through Connections</small>
+</footer>
+
+</body>
+</html>
