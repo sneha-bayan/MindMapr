@@ -77,17 +77,7 @@ Includes admin tools, shared classrooms, and collaboration features.
 
 🛠️ Tech Stack (Recommended)
 
-(Optional section — remove if not needed)
-
-Frontend: React / Next.js
-
-Backend: Node.js / Express
-
-Database: MongoDB or PostgreSQL
-
-AI/ML: Python (FastAPI), vector search, embeddings
-
-Hosting: Vercel + AWS
+core HTML and CSS
 
 📌 Vision
 
